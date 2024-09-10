@@ -1,0 +1,13 @@
+{
+    "name": "VpsManager",
+    "alias": "vpsmanager",
+    "description": "VPS Manager module for FreeSCOUT",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\VpsManager\\Providers\\VpsManagerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

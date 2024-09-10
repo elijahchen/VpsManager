@@ -1,0 +1,27 @@
+{
+    "name": "freescout/vps-manager",
+    "description": "VPS Manager module for FreeSCOUT",
+    "license": "MIT",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\VpsManager\\Providers\\VpsManagerServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\VpsManager\\": ""
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
