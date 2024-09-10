@@ -17,12 +17,6 @@ class VpsManagerServiceProvider extends ServiceProvider
         ], 'config');
 
         $this->registerAssets();
-
-        \App\Misc\Helper::addMenuItem('vps_manager', [
-            'name' => __('VPS Manager'),
-            'url' => route('vpsmanager.index'),
-            'icon' => 'server',
-        ]);
     }
 
     public function register()
